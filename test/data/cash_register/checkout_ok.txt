@@ -1,0 +1,26 @@
+
+Balance: £-1.13
+
+Please insert coin.
+
+-------------------------------
+[1mCoin menu[0m
+-------------------------------
+Id             | Name           | Value          | Count          
+1              | 1p             | £0.01          | 1              
+2              | 2p             | £0.02          | 3              
+3              | 5p             | £0.05          | 2              
+4              | 10p            | £0.10          | 5              
+5              | 20p            | £0.20          | 2              
+6              | 50p            | £0.50          | 2              
+7              | £1             | £1.00          | 9              
+8              | £2             | £2.00          | 10             
+
+Balance: £0.03
+[1mReturning change:[0m
+2p
+1p
+[1mTotal change returned: £0.03[0m
+
+[1mProduct Coke delivered.[0m
+[1mThank you.[0m
