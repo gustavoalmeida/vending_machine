@@ -1,0 +1,25 @@
+
+Balance: £-1.15
+
+Please insert coin.
+
+-------------------------------
+[1mCoin menu[0m
+-------------------------------
+Id             | Name           | Value          | Count          
+1              | 1p             | £0.01          | 0              
+2              | 2p             | £0.02          | 0              
+3              | 5p             | £0.05          | 0              
+4              | 10p            | £0.10          | 0              
+5              | 20p            | £0.20          | 0              
+6              | 50p            | £0.50          | 0              
+7              | £1             | £1.00          | 0              
+8              | £2             | £2.00          | 0              
+
+Balance: £0.85
+[1mOps. Sorry, there is not enough coin to deliver your change.[0m
+
+[1mReturning your coins:[0m
+£2
+[1mTotal returned: £2.00[0m
+[1mThe operation has been canceled.[0m
