@@ -7,6 +7,11 @@ This is a simple vending machine script with the folowing use cases
 * The machine should take an initial load of products and change. The change will be of denominations 1p, 2p, 5p, 10p, 20p, 50p, £1, £2. There should be a way of reloading either products or change at a later point.
 * The machine should keep track of the products and change that it contains.
 
+## Running with docker compose
+
+```
+docker-compose run machine
+```
 ## Screenshots
 
 #### Welcome screen
