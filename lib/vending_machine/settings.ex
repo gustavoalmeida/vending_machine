@@ -4,7 +4,7 @@ defmodule VendingMachine.Settings do
   """
 
   alias Mix.Shell
-  alias VendingMachine.{Display, Loader}
+  alias VendingMachine.{Display, Loader, State}
 
   def display(state) do
     IO.puts("")
@@ -16,6 +16,7 @@ defmodule VendingMachine.Settings do
 
     IO.puts(format("1") <> "|" <> format(" Reload Products"))
     IO.puts(format("2") <> "|" <> format(" Reload Change"))
+    IO.puts(format("3") <> "|" <> format(" Machine State"))
     IO.puts(format("c") <> "|" <> format(" Cancel"))
 
     state
@@ -53,6 +54,11 @@ defmodule VendingMachine.Settings do
       IO.puts(IO.ANSI.format([:bright, "Change reloaded."]))
       main_menu(state)
     end
+  end
+  
+  def handle_settings({"3", state}) do
+    State.track(state)
+    main_menu(state)
   end
 
   def handle_settings({"c", state}) do

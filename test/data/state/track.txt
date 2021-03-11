@@ -1,0 +1,18 @@
+
+[1mMachine State:[0m
+
+Coins:
+1p, count: 1, total:£0.01
+2p, count: 3, total:£0.06
+5p, count: 2, total:£0.10
+10p, count: 5, total:£0.50
+20p, count: 2, total:£0.40
+50p, count: 2, total:£1.00
+£1, count: 9, total:£9.00
+£2, count: 10, total:£20.00
+Total: £31.07
+
+Products:
+Coke, stock: 1
+Snack, stock: 1
+
