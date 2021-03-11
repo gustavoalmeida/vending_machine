@@ -31,6 +31,10 @@ docker-compose run machine
 
 ![Alt settings](data/settings.png?raw=true "Settings menu")
 
+#### Machine state
+
+![Alt settings](data/state.png?raw=true "Settings menu")
+
 ### Sample data
 
 **Products**
