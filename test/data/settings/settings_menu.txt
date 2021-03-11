@@ -6,4 +6,5 @@ Option         | Name
 ---------------|---------------
 1              | Reload Products
 2              | Reload Change 
+3              | Machine State 
 c              | Cancel        

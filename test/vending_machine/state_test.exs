@@ -3,7 +3,7 @@ defmodule VendingMachine.StateTest do
   alias VendingMachine.State
 
   import ExUnit.CaptureIO
-  
+
   describe "initial_state/2" do
     test "initializing machine state" do
       initial_state = State.initial_state()
@@ -29,7 +29,7 @@ defmodule VendingMachine.StateTest do
               }} = initial_state
     end
   end
-  
+
   describe "track/1" do
     test "show machine state" do
       {:ok, initial_state} = State.initial_state()
