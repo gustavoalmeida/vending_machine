@@ -55,7 +55,7 @@ defmodule VendingMachine.Settings do
       main_menu(state)
     end
   end
-  
+
   def handle_settings({"3", state}) do
     State.track(state)
     main_menu(state)
