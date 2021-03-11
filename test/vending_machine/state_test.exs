@@ -2,6 +2,8 @@ defmodule VendingMachine.StateTest do
   use ExUnit.Case
   alias VendingMachine.State
 
+  import ExUnit.CaptureIO
+  
   describe "initial_state/2" do
     test "initializing machine state" do
       initial_state = State.initial_state()
@@ -25,6 +27,15 @@ defmodule VendingMachine.StateTest do
                   %{id: 2, name: "Snack", price: %Money{amount: 225, currency: :GBP}, stock: 1}
                 ]
               }} = initial_state
+    end
+  end
+  
+  describe "track/1" do
+    test "show machine state" do
+      {:ok, initial_state} = State.initial_state()
+      track = capture_io(fn -> State.track(initial_state) end)
+      expected = File.read!(Path.expand("../data/state/track.txt", __DIR__))
+      assert track == expected
     end
   end
 end
